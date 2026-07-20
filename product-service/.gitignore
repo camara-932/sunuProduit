@@ -31,3 +31,31 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Fichiers de configuration sensibles / environnement
+.env
+.env.local
+application-local.properties
+application-local.yml
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker (si tu utilises docker-compose)
+docker-compose.override.yml
+
+# Dépendances (si jamais tu ajoutes du front dans un service)
+node_modules/
+
+# Fichiers de build supplémentaires
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
